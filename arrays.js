@@ -26,7 +26,10 @@ var chocolateBars =
     return array[index];
   }
   
-  function destructivelyAddElementToEndOfArray
+  function destructivelyRemoveElementFromBeginningOfArray(array) {
+    array.shift();
+    return array;
+  }
   
   
   
